@@ -1,0 +1,77 @@
+.main-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.bg-light {
+    background-color: #2c3e50 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #bac0c5 !important;
+}
+
+.light-green-color{
+    color: #1ca38d;
+}
+
+.green-color{
+    background-color: #18bc9c !important;;
+}
+
+:host ::ng-deep json-editor,
+:host ::ng-deep json-editor .jsoneditor,
+:host ::ng-deep json-editor > div,
+:host ::ng-deep json-editor jsoneditor-outer {
+    height: 83vh;
+    padding: 1px 10px;
+    border: none;
+}
+
+:host ::ng-deep .jsoneditor-menu a.jsoneditor-poweredBy{
+    display: none;
+}
+
+:host ::ng-deep .jsoneditor-contextmenu .jsoneditor-text {
+    color: white;
+}
+
+:host ::ng-deep .jsoneditor-contextmenu .jsoneditor-text:hover {
+    color: black;
+}
+
+:host ::ng-deep .jsoneditor-menu {
+    background-color: #2c3e50;
+    border-bottom: 1px solid #2c3e50;
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    box-shadow: none;
+}
+
+.btn-outline-primary:hover {
+    background-color: #18bc9c;
+}
+
+/* .editor-padding{
+    padding: 15px 30px;
+} */
+
+.btn-format{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    width: 100%;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.pointer-event-none{
+    pointer-events: none;
+    overflow-y: scroll;
+}
